@@ -1,0 +1,418 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+
+}
+
+
+.logo {
+  margin-left: 50px;
+}
+
+header {
+  height: auto;
+  background-color: #4b48f3;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -50px;
+  padding-top: 30px;
+}
+
+.nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.nav-item:hover {
+  border-radius: 4px;
+  background-color: #fff;
+  color: blue;
+  padding: 4px 5px;
+  margin-left: 25px;
+  font-size: smaller;
+
+}
+
+.nav-item-active {
+  border-radius: 4px;
+  background-color: #fff;
+  color: blue;
+  padding: 4px 5px;
+  margin-left: 25px;
+  font-size: smaller;
+  cursor: pointer;
+
+}
+
+.header-text {
+  margin-left: 50px;
+  margin-top: 80px;
+
+}
+
+.header-text h2 {
+  font-size: xx-large;
+}
+
+.header-text p {
+  margin-top: 20px;
+}
+
+header>:last-child {
+  overflow: hidden;
+}
+
+.header-image {
+  position: absolute;
+  right: -15px;
+  top: 100px;
+}
+
+.companies {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.company-items {
+  margin-left: 50px;
+  text-decoration: none;
+  font-family: 'Righteous';
+  font-size: large;
+  color: #000000;
+  margin-top: 35px;
+  margin-bottom: 90px;
+
+}
+
+.company-items:hover {
+  top: -5px;
+  position: relative;
+  transition: 2s;
+}
+
+.api h1 {
+  margin-left: 50px;
+
+}
+
+.api {
+  flex-wrap: wrap;
+}
+
+.api-heading {
+  margin-left: 50px;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cards::after {
+  content: ">";
+  font-weight: 900;
+  padding: 5px 14px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #4934bd;
+
+}
+
+.card-active {
+  box-shadow: 1px 1px 8px 2px#dfdada;
+  border-radius: 10px;
+  padding: 30px 15px;
+}
+
+.card {
+  padding: 10px 10px;
+  margin-right: 7px;
+}
+
+.card-body {
+  font-size: x-small;
+}
+
+.blog-heading {
+  margin-left: 50px;
+  margin-top: 80px;
+  font-weight: bolder;
+}
+
+.blog-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-content small {
+  font-weight: 100;
+  font-size: smaller;
+}
+
+.blog-content h6 {
+  color: #4934bd;
+  font-weight: 900;
+}
+
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+  justify-content: space-around;
+}
+
+.blog-card {
+  display: flex;
+  box-shadow: 0px 0px 9px 0px#dfdada;
+  border-radius: 50px 5px 5px 5px;
+
+}
+
+.blog-author {
+  position: absolute;
+  margin-top: 137px;
+  margin-left: 180px;
+  font-size: smaller;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.blog-bottom {
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 293px;
+  border: 5px solid #fafafa;
+  width: 53px;
+  height: 55px;
+  border-radius: 50px;
+}
+
+.download-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.faq-section {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e6f3f7;
+  justify-content: space-between;
+
+}
+
+.faq-content {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.faq-content>:nth-child(3) {
+  margin-top: 20px;
+}
+
+.faq-content button {
+  background-color: #4934bd;
+  color: #fff;
+  padding: 10px 12px;
+  border: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: small;
+}
+
+.faq-image {
+  float: right;
+}
+
+.faq-content h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+
+}
+
+.faq-content>:nth-child(2) {
+  font-size: smaller;
+  font-weight: 100;
+
+}
+
+.download-email button {
+  border: 0px solid #8271e4;
+  border-radius: 25px;
+  background-color: #4934bd;
+  color: #fff;
+  padding: 15px 35px;
+}
+
+.download-section {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.download-content h1 {
+  font-weight: 50px;
+  margin-left: 50px;
+
+}
+
+.download-content h1 span {
+  font-weight: 100;
+}
+
+.download-email form {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0px solid #d9d5f0;
+  border-radius: 35px;
+  background-color: #e9e5f8;
+  padding: 5px 5px;
+  margin-right: 70px;
+}
+
+.download-email input {
+  border: 0px solid #8271e4;
+  background-color: #e9e5f8;
+  padding-left: 20px;
+  border-radius: 35px;
+  
+}
+
+.download-email>form>input::placeholder {
+  color: #000000;
+}
+
+.footer-section {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #4934bd;
+  justify-content: space-between;
+}
+
+.footer-left img {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.list>li+li+li::before {
+  content: "|";
+  margin-right: 20px;
+
+}
+
+.list-items {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.footer-logos-img {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.logos-list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  margin-top: 30px;
+  margin-right: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos-list>li+li::before {
+  content: "|";
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+  .header-image {
+    display: none;
+  }
+
+  .faq-image {
+    max-width: fit-content;
+    size-adjust: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .blog-bottom {
+    display: none;
+  }
+
+  .blog-author {
+    display: none;
+  }
+
+  /* .download-email{
+    size: 50%;
+  } */
+}
+
+@media screen and (max-width:500px) {
+  .download-email form>input {
+    size: auto;
+    width: auto;
+  }
+}
